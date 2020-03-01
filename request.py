@@ -1,4 +1,3 @@
-from requests.packages.urllib3.exceptions import InsecureRequestWarning
 from requests.adapters import HTTPAdapter
 import requests
 from urllib.parse import quote
@@ -11,6 +10,7 @@ import settings
 
 # 禁用安全请求警告
 try:
+	from requests.packages.urllib3.exceptions import InsecureRequestWarning
 	requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 except:
 	pass

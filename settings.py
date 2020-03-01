@@ -1,4 +1,3 @@
-
 # 是否启用splash服务更新cookie的值。启用则需要安装splash插件
 SPLASH = True
 SPLASH_URL = 'http://localhost:8050'
