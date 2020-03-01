@@ -16,7 +16,7 @@
 `docker pull scrapinghub/splash`
 
 - 开启splash服务
-`docker run --restart=always -p 8050:8050 scrapinghub/splash`
+`docker run --restart=always -p 8050:8050 scrapinghub/splash` 
 只需运行一次即可，以后随docker一起启动。
 splash是为了模拟运行js动态获取cookies值，如果不更新cookies值爬取一定数量后，链接会失效。
 
