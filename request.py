@@ -19,8 +19,8 @@ class Request(object):
 	"""
 	请求类
 	"""
-
-	proxy = settings.REQUESTS_PROXIES
+	if settings.PROXIES:
+		proxy = settings.REQUESTS_PROXIES
 	cookies = settings.REQUESTS_COOKIES
 	params = settings.REQUESTS_PARAMS
 	keyword = 'jiankangliren'
