@@ -27,8 +27,6 @@ docker run --restart=always -p 8050:8050 scrapinghub/splash
 splash是为了模拟运行js动态获取cookies值，如果不更新cookies值爬取一定数量后，链接会失效。
 
 ### 运行项目
-
-- 运行项目
 ```
 python meituan3
 ```
