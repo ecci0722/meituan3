@@ -79,9 +79,6 @@ else:
 # 美团域名
 MEI_TUAN_DOMIN_URL = 'https://www.meituan.com'
 
-# 美团API接口
-MEI_TUAN_API_URL = 'https://apimobile.meituan.com/group/v4/poi/pcsearch/'
-
 # 设置请求头
 REQUESTS_HEADERS = {
 	'Cache-Control': 'max-age=0',
